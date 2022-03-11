@@ -1,0 +1,8 @@
+# n=input("What is your Name: ")
+# print(f"Your name is {n}")
+inputfile=open("input.txt")
+# print(myfile.read())
+outputfile=open("output.txt","w")
+outputfile.write(f"My name is {inputfile.read()}")
+outputfile.close() 
+inputfile.close()
